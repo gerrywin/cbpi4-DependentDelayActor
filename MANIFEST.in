@@ -1,2 +1,3 @@
-recursive-include cbpi4-DependentDelayActor *
 include README.md
+include LICENSE
+recursive-include cbpi4_DependentDelayActor *.yaml

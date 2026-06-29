@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: cbpi4-DependentDelayActor
+Version: 0.0.1
+Summary: CraftBeerPi4 Actor Plugin to switch an actor after another actor has a required state and an optional delay
+Home-page: 
+Author: ChatGPT
+Author-email: 
+License: GPLv3
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: summary
+
+# cbpi4-DependentDelayActor
+
+CraftBeerPi4 actor plugin.
+
+It switches a selected target actor only after a selected dependency actor is in the required ON/OFF state. If enabled, the dependency actor is switched automatically first. An optional delay in seconds can be configured before the target actor is switched on.

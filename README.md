@@ -2,6 +2,8 @@
 
 CraftBeerPi4 actor plugin for switching up to two main actors after dependency actors have reached configurable states and an optional delay has finished.
 
+Version 0.0.1
+
 ## Features
 
 - Up to 2 main actors

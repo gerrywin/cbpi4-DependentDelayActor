@@ -62,26 +62,6 @@ pip3 install . --break-system-packages
 sudo systemctl restart craftbeerpi
 ```
 
-## First GitHub upload
-
-Use SSH, not HTTPS, so GitHub does not ask for username and password:
-
-```bash
-git init
-git add .
-git commit -m "Initial release"
-git branch -M main
-git remote add origin git@github.com:gerrywin/cbpi4-DependentDelayActor.git
-git push -u origin main
-```
-
-If `origin` already exists with an HTTPS URL, change it to SSH:
-
-```bash
-git remote set-url origin git@github.com:gerrywin/cbpi4-DependentDelayActor.git
-git push -u origin main
-```
-
 ## License
 
 GPLv3
